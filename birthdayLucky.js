@@ -12,6 +12,7 @@ function dobSum(dob){
 }
 
 function checkBirthday(){
+    console.log(input[0].value+"       "+typeof(input[0].value))
     var dob = dobSum(input[0].value);
     var luckyNumber = Number(input[1].value);
     if(dob===luckyNumber){
